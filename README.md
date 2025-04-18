@@ -45,3 +45,21 @@ This project is a Security Orchestration, Automation, and Response (SOAR) pipeli
 - Create Incoming Webhook
 - Add Tines app for interaction
 
+- ## Troubleshooting
+
+- **Sensor not reporting**: Ensure the installation key is correct and network allows outbound connections.
+- **Tines not receiving data**: Double-check webhook is configured as an Output in LimaCharlie.
+- **Slack messages not appearing**: Make sure Slack app has permissions and is installed correctly.
+
+- ## How to Test
+
+1. Deploy sensor to a test machine.
+2. Run `LaZagne.exe` on the endpoint.
+3. Observe:
+   - Detection in LimaCharlie.
+   - Slack alert in your channel.
+   - Email alert in your inbox.
+   - Optional: Confirm machine isolation via Slack button.
+
+
+
