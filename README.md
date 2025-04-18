@@ -20,7 +20,7 @@ This project is a Security Orchestration, Automation, and Response (SOAR) pipeli
 
 ## Workflow Diagram
 
-![Architecture Diagram](Architecture-diagram.png)
+![Architecture Diagram](architecture-diagram.png)
 )
 
 1. Endpoint activity is monitored by LimaCharlie
